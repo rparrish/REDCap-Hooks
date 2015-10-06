@@ -1,9 +1,7 @@
 # REDCap-Hooks
 This is a framework for deploying hooks in REDCap on a global or per-project basis.
 
-This code is covered by a standard MIT license which means you can't hole me liable :-)  In other words:
-
-It is YOUR responsiblity to ensure that the use of this code or any modifications to it meet your institutional security guidelines.  This code is intended as example code for learning REDCap and not necessarily as production-ready code.  In other words, use at your own risk.  Please also leave attribution to this repository in the code.
+This code is covered by a standard MIT license which means you can't hole me liable :-)  In other words, it is YOUR responsiblity to ensure that the use of this code or any modifications to it meet your institutional security guidelines.  This code is intended as example code for learning REDCap and not necessarily as production-ready code.  In other words, use at your own risk.  Please also leave attribution to this repository in the code.
 
 ## Using this Framework
 The code contained in this repository is typically installed in a subfolder off your root redcap web directory (typically called hooks).
@@ -19,4 +17,3 @@ Set the path to the redcap_hooks.php file - the name of the parent folder does n
 ####  Test
 By default, the global hooks file `/global/global_hooks.php` will render a colored div for all hooks when you are a super user.  So, if you visit the control center, for example, you should see a custom hook at the bottom of the page (where the `redcap_control_center` hook is enabled):
 <div><img src="http://s20.postimg.org/ew7jv92ct/example_hook_enabled.png" width="500"></div>
-
