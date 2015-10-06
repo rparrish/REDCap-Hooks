@@ -19,3 +19,4 @@ Set the path to the redcap_hooks.php file - the name of the parent folder does n
 ####  Test
 By default, the global hooks file `/global/global_hooks.php` will render a colored div for all hooks when you are a super user.  So, if you visit the control center, for example, you should see a custom hook at the bottom of the page (where the `redcap_control_center` hook is enabled):
 <div><img src="http://s20.postimg.org/ew7jv92ct/example_hook_enabled.png" width="500"></div>
+
